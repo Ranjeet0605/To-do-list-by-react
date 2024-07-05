@@ -1,0 +1,15 @@
+.submit_btn{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: brown;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+
+    cursor: pointer;
+}
+.show_image{
+    width: 300px;
+    height: 300px;
+}

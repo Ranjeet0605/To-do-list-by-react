@@ -1,0 +1,11 @@
+.input_field{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.banner_text{
+    padding: 40px 13px;
+    margin: 10px;
+    background-color: chartreuse;
+    width: 300px;
+}

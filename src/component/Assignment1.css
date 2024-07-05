@@ -1,0 +1,33 @@
+/* *{
+    padding: 0;
+    margin: 0;
+
+}
+.main_container{
+    width: 30%;
+    padding: 10px;
+    background-color: green;
+    margin: auto;
+    height: 20vh;
+}
+.main_container>ul{
+    list-style: none;
+   
+   
+
+}
+.onordered_list>li{
+    background-color: blueviolet;
+    display: flex;
+    margin: 3px;
+     padding: 10px;
+     justify-content: space-between;
+}
+.onordered_list>li>button{
+    background-color: rgb(195, 6, 6);
+    padding: 4px 6px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+} */
