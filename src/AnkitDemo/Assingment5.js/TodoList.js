@@ -4,7 +4,7 @@ import "./TodoList.css"
 
 const  TodoList=()=> {
  
-    const [textValue,setTextValue] = useState(" ");
+    const [textValue,setTextValue] = useState();
     console.log(textValue)
    
     const changeHandler = (e)=>{
@@ -155,11 +155,11 @@ const  TodoList=()=> {
     
     <p>TODO LIST</p>
     
-       <input className='input_box' type="text" placeholder='Enter the anything.' value={searchValue} onChange={searchHandler}/>
-        
+       <input className='input_box' type="text" placeholder='Search Box' value={searchValue} onChange={searchHandler}/>
+       <button className='delete_btn' onClick={deleteHandler} >Delete</button>
         <input className='input_box' type="text" value={textValue} placeholder='Enter the anything.' onChange={changeHandler}/>
         <button className='submit_btn' onClick={submitHandler} >submit</button>
-        <button className='delete_btn' onClick={deleteHandler} >Delete</button>
+        
     
     <div className='div_box'>
  
