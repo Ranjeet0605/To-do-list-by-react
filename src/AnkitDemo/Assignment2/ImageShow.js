@@ -11,7 +11,7 @@ const ImageShow=()=> {
     <div>
     <button className='submit_btn' onClick={()=>setShow(!show)}>Submit</button>
     <div>
-     {show &&  <img src={image} className='show_image'/>}
+     {show &&  <img src={image} className='show_image' alt="save this pic"/>}
      </div>
     </div>
   )
