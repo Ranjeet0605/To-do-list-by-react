@@ -1,0 +1,63 @@
+.container{
+width: 30%;
+background-color: black;
+
+margin: auto;
+padding: 10px;
+
+}
+.main_container1{
+    padding: 10px;
+}
+.main_container1>p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    border-bottom: 1px solid white;
+}
+.main_container1>input{
+    width: 200px;
+    padding: 12px;
+    margin: 10px;
+    border: none;
+  
+    border-radius: 5px;
+}
+.main_container1>button{
+    padding: 10px 11px;
+   margin-left: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   
+}
+.container>.run_wicket,.total_over,.this_over_run,.this_over{
+    color: white;
+}
+.this_over{
+    display: flex;
+    
+    margin: 10px;
+}
+
+.this_over>div{
+    /* background-color: rgb(127, 255, 133); */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100%;
+}
+.all_palyers{
+    color: white;
+    margin-top: 20px;
+}
+
+table,tr,th,td{
+    border-top: 1px solid white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}

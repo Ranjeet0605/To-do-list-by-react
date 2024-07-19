@@ -9,6 +9,8 @@ import Assignment3 from './component/Assignment3';
  import ImageShow from './AnkitDemo/Assignment2/ImageShow';
  import MulitpleImageShow from './AnkitDemo/Assignment3/ImageShow';
 import TodoList from './AnkitDemo/Assingment5.js/TodoList';
+
+import Dashboard from './AnkitDemo/CricketAssignment/Dashboard';
 function App() {
   return (
    <div>
@@ -21,6 +23,8 @@ function App() {
     {/* <ImageShow/> */}
     {/* <MulitpleImageShow/> */}
     <TodoList/>
+
+    {/* <Dashboard/> */}
    </div>
   );
 }
